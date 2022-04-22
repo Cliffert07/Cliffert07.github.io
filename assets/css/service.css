@@ -1,0 +1,144 @@
+/* Services section */
+.service:hover {    
+    transform: translateY(-2px) translateX(-2px); 
+    color: rgb(121, 120, 120);
+    font-size: large;
+    box-shadow: 0 10px 40px -10px  rgb(2, 36, 51);
+    transition: ease-in 0.1s;
+    font-weight: 900;
+}
+
+.s-1 .s-2 .s-3 .s-4
+{
+    transition: all ease-in-out ;
+}
+.s-1:hover{
+    background-image: url(/images/s1.jpg);
+    background-size: 100%;
+}
+.s-2:hover{
+    background-image: url(/images/s2.jpg);
+    background-size: 99%;
+}
+.s-3:hover{
+    background-image: url(/images/s3.jpg);
+    background-size: 100%;
+}
+.s-4:hover{
+    background-image: url(/images/s4.jpg);
+    background-size: 99%;
+}
+
+.service i{
+    font-size: 3rem;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    color: rgb(255, 255, 255);   
+}
+.service:hover i{
+    color: rgba(68, 160, 152, 0.87);
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-380deg);
+    -moz-transform: rotate(-380deg);
+    -ms-transform: rotate(-380deg);
+    -o-transform: rotate(-380deg);
+    /* transform: scale(1, 0) rotate(360deg);
+    -webkit-transform: scale(1, 0) rotate(100deg);
+    -moz-transform: scale(1, 0) rotate(100deg);
+    -ms-transform: scale(1, 0) rotate(100deg);
+    -o-transform: scale(1, 0) rotate(100deg); */
+}
+.service:hover p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.container-3{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5rem;
+    background: rgba(232, 236, 236, 0.493);
+}
+.container-3 h1 {
+    font-weight: 700;
+    font-size: clamp(30px, 5vw, 95px);
+    color: rgb(84, 146, 143);
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 4px;
+    margin-top: 0px;
+    /* margin-left: 37px; */
+    margin-bottom: 50px;
+}
+.container-3 h1 span {
+    font-weight: 600;
+    font-size: clamp(30px, 1vw, 95px);
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    line-height: 1;
+    letter-spacing: 3px;
+    margin-left: 65px;
+}
+.container-3 > h1, .container-3 > p {
+    text-align: center;
+}
+.service p {
+    color: rgb(94, 94, 94);
+    font-size: 1.1em;
+    overflow: hidden;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    color: rgba(14, 82, 76, 0.87);
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+a .service {
+    color: rgba(14, 82, 76, 0.87);
+}
+.service {
+    margin: 15px;
+    overflow: hidden;
+    padding: 40px 15px;
+    position: relative;
+    text-align: center;
+    transition: all backround-image 0.2s ease-in;
+    width: 220px;
+    transition: all box-shadow 0.2s ease-in; 
+}
+
+/* end */
+
+/* product */
+
+.services-s {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgba(14, 82, 76, 0.87);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.services-s {
+    gap: 1.3rem;
+}
+.services-s p{
+    font-size: 1.5rem;
+}
+.content-s h1 {
+    font-weight: 900;
+    font-size: clamp(30px, 6vw, 95px);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 4px;
+}
+/* end */

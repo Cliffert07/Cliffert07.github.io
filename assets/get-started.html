@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon (9).ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon (9).ico" type="image/x-icon" />
+    <title>Get started</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <script src="/assets/js/main.js" type="text/javascript" defer></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/js/t.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/animate.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!-- icon pack -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e5efcf9085.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="con-start">
+      <span class="big-circle"></span>
+      <div class="form">
+        <div class="contact-info">
+          <h3>Let's get in touch</h3>
+          <p class="text">
+            We ship the work because we Creative, We Creative becasue we ship the work. -Seth Godin
+          </p>
+
+          <div class="info">
+              <div class="information">
+                  <i class="fa fa-location-arrow"></i>
+                  <p>Kab.Badung  Bali, Indonesia</p>
+              </div>
+              <div class="information">
+                <i class="fa fa-mail-bulk"></i>
+                <p> Frelincontentmanagement.com</p>
+              </div>
+              <div class="information">
+                <i class="fa fa-phone-alt"></i>
+                <p> +62 812 1310 5249</p>
+              </div>
+          </div>
+          <div class="social-media2">
+            <p>Connect with us :</p>
+            <div class="social-icn">
+              <a href="#">
+                  <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+<!-- form -->
+          <form action="https://sheetdb.io/api/v1/8ebdor4p7p0dk" method="POST" id="sheetdb-form"> 
+            <h3 class="title-g">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="data[name]" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="data[email]" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="data[phone]" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <input type="comment" name="data[comment]" class="input"></input>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+          <!-- redirect -->
+    <script>
+      var form = document.getElementById('sheetdb-form');
+      form.addEventListener("submit", e => {
+        e.preventDefault();
+        fetch(form.action, {
+            method : "POST",
+            body: new FormData(document.getElementById("sheetdb-form")),
+        }).then(
+            response => response.json()
+        ).then((html) => {
+          // you can put any JS code here
+         
+          alert('Thanks, we will contact you very soon.'),  window.location.reload();
+        });
+      });
+    </script>
+    <!-- end -->
+<!-- end -->
+
+        </div>
+      </div>
+    </div>
+    
+    <script src="/assets/js/app.js"></script>
+    
+  </body>
+</html>
