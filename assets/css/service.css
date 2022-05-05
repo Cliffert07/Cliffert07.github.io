@@ -8,27 +8,6 @@
     font-weight: 900;
 }
 
-.s-1 .s-2 .s-3 .s-4
-{
-    transition: all ease-in-out ;
-}
-.s-1:hover{
-    background-image: url(/images/s1.jpg);
-    background-size: 100%;
-}
-.s-2:hover{
-    background-image: url(/images/s2.jpg);
-    background-size: 99%;
-}
-.s-3:hover{
-    background-image: url(/images/s3.jpg);
-    background-size: 100%;
-}
-.s-4:hover{
-    background-image: url(/images/s4.jpg);
-    background-size: 99%;
-}
-
 .service i{
     font-size: 3rem;
     transition: 0.2s ease-in-out;
